@@ -11,6 +11,7 @@ env/
 venv/
 ENV/
 *.env
+.envrc
 
 # IDE / Editor files
 .vscode/
@@ -27,3 +28,49 @@ Thumbs.db
 .eggs/
 .cache/
 .pytest_cache/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+lib/
+lib64/
+parts/
+sdist/
+var/
+share/python-wheels/
+*.egg
+MANIFEST
+
+# Jupyter
+.ipynb_checkpoints/
+
+# mypy / coverage / tox
+.mypy_cache/
+.coverage
+.tox/
+.nox/
+
+# Pycharm / Spyder / Rope
+.spyproject/
+.ropeproject/
+
+# VSCode
+.vscode/
+
+# PyInstaller
+*.spec
+
+# pipenv / poetry / pdm
+Pipfile.lock
+poetry.lock
+pdm.lock
+
+# Misc
+.pdm-python
+.pixi
+.pyre/
+.pytype/
+cython_debug/
